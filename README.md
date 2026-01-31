@@ -1,21 +1,28 @@
-# Student Management API (Project 1)
+# 💰 Personal Finance Tracker API (Month 1 - Core Backend)
 
-## 🎯 Project Overview
-An industrial-grade REST API for managing university students, courses, and enrollments. Built during Month 1 of a 4-month Spring Boot mastery roadmap.
+## 🎯 Motivation
+Building a robust, industrial-ready REST API that manages personal financial health. This project replaces my previous student finance prototype with a focus on **clean architecture**, **data integrity**, and **professional-grade validation**.
 
 ## 🚀 Technical Stack
-- **Framework:** Spring Boot 3.x
-- **Language:** Java 25
-- **Database:** PostgreSQL
-- **Tools:** Docker, Swagger (OpenAPI 3.0), JUnit 5
+- **Framework:** Spring Boot 3.4+
+- **Language:** Java 21 LTS
+- **Build Tool:** Maven
+- **Architecture:** Layered (Controller-Service-Repository)
+- **Planned:** PostgreSQL, Docker, Redis, and Spring Security.
 
-## 🛠️ Features (Planned)
-- [ ] Week 1: Basic CRUD for Students (In-memory)
-- [ ] Week 2: PostgreSQL Integration & Course Relationships
-- [ ] Week 3: Global Error Handling & Pagination
-- [ ] Week 4: Dockerization & Service Testing
+## 🛠️ Feature Roadmap
+### ✅ Phase 1: Foundation (Week 1) - CURRENT
+- [x] Project Initialization & Folder Structure
+- [ ] In-memory Transaction CRUD (Create, Read, Update, Delete)
+- [ ] Daily Balance Calculation Logic
+- [ ] Data Transfer Object (DTO) Implementation
 
-## 🚦 Getting Started
-1. Clone the repo.
-2. Run `mvn clean install`.
-3. Start the application via Docker: `docker-compose up`. (Available Week 4)
+### ⏳ Upcoming Phases
+- **Week 2:** Database Persistence with PostgreSQL & JPA
+- **Week 3:** Global Exception Handling & Advanced Validation
+- **Week 4:** API Documentation (Swagger) & Dockerization
+
+## 🚦 How to Run (Development)
+1. Clone the repository.
+2. Ensure **JDK 21** is installed.
+3. Run: `mvn spring-boot:run`
