@@ -1,7 +1,7 @@
 # 💰 Personal Finance Tracker API (Month 1 - Core Backend)
 
 ## 🎯 Motivation
-Building a robust, industrial-ready REST API that manages personal financial health. This project replaces my previous student finance prototype with a focus on **clean architecture**, **data integrity**, and **professional-grade validation**.
+Building a robust, industrial-ready REST API that manages personal financial health. This project is for Month 1 of a 4-month Spring Boot mastery roadmap. with a focus on **clean architecture**, **data integrity**, and **professional-grade validation**.
 
 ## 🚀 Technical Stack
 - **Framework:** Spring Boot 3.4+
