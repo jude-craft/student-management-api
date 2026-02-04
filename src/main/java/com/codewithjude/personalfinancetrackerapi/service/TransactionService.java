@@ -13,18 +13,19 @@ public class TransactionService {
     // Temporary in memory storage for week 1
     private final List<Transaction> transactions = new ArrayList<>();
 
-    public List<Transaction> getAllTransactions(){
+    public List<Transaction> getAllTransactions() {
         return transactions;
     }
-    public void addTransaction(Transaction transaction){
+
+    public void addTransaction(Transaction transaction) {
         transactions.add(transaction);
     }
-    public Double calculateNetBalance(){
+
+    public Double calculateNetBalance() {
         return transactions.stream()
                 .mapToDouble(t -> t.getType() == TransactionType.INCOME ? t.getAmount() : -t.getAmount())
                 .sum();
     }
-
 
 
 }
